@@ -3,19 +3,20 @@
   "description": "Application generator for transformation",
   "repository": "transformjs/tran",
   "version": "0.0.1",
-  "keywords": [
-  ],
+  "keywords": [],
   "files": [
     "index.js"
   ],
   "devDependencies": {
     "istanbul": "0",
     "mocha": "1",
-    "should": "*"
+    "should": "*",
+    "stream-spec": "^0.3.5"
   },
   "license": "MIT",
   "dependencies": {
-    "debug": "*"
+    "debug": "*",
+    "sinon": "^1.10.3"
   },
   "scripts": {
     "test": "NODE_ENV=test mocha --require should --reporter spec",
